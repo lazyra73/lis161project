@@ -1,7 +1,7 @@
 menu = {
     'Appetizer': [
         {
-            'name': "hi Fisherman's Toast",
+            'name': "Fisherman's Toast",
             'price': 150,
             'description': 'An attractive-looking pre-meal snack. A spread made from potatoes and berries is placed onto crispy potato slices, and a whole shrimp is then added on top. The fragrant and full-bodied flavors serve to whet the appetite, while the addition of Mint adds a whole other dimension to the mix.',
             'url': "https://i0.wp.com/fragstrat.com/genshin-impact/wp-content/uploads/Item_Fisherman27s_Toast.png?w=819&ssl=1",
@@ -125,7 +125,7 @@ menu = {
             'name': 'Invigorating Kitty Meal',
             'price': 270,
             'description': 'This main dish looks rather cute. With Kiminami Anna\'s help, this dish was made with the tastes of the provisional head priestess Neko of Inazuma in mind.',
-            'url': 'https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/grilled-unagi-fillet-food-genshin-impact-wiki-guide-150px.png',
+            'url': 'https://genshinimpact.wiki.fextralife.com/file/Genshin-Impact/invigorating-kitty-meal-food-genshin-impact-wiki-guide-150px.png',
             'recipe' : {'Fish':4.5, 'Raw Meat':1, 'Seagrass':2.25, 'Rice':1.75},
             'bestseller': True,
             'vid': "https://www.youtube.com/embed/Z9FWTdgSRrQ"

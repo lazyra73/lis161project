@@ -1,12 +1,11 @@
 from flask import Flask, render_template
 from menu import menu
 
-app = Flask(__name__) #instantiate an object is same as assigning a variable
-
+app = Flask(__name__) 
 
 @app.route('/') 
 def index():
-    return render_template('index.html')
+    return render_template('home.html')
 
 
 @app.route('/about') 
@@ -21,10 +20,10 @@ def menupage():
 def contactus():
     return render_template('contact.html')
 
-#html page for each animal type
+#html page for each food type
 @app.route("/menu/<food_type>")
 def animals(food_type):  
-    food_list = menu[food_type] #communicating with data model aka calling the menu dict with food_type key  
+    food_list = menu[food_type] 
     return render_template('foodtype.html', food_type = food_type, food_list =food_list) 
 
 

@@ -1,0 +1,12 @@
+
+
+ul { /*to center the food names*/
+  text-align: center;
+  list-style-type: none;
+ }
+
+h1 { /*to center "list of <>"*/
+    margin: auto;
+    margin-left: 25px;
+    text-align: center;
+}

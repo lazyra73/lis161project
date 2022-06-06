@@ -1,3 +1,5 @@
+/*Applicable to the whole site since this is referenced in base.html that's being extended to all the other pages*/
+
 p {
     font-family: serif;
     font-size: 1.2em;
@@ -14,6 +16,6 @@ body {
   background: Linen;
   }
 
-li{
+li{ /*for all lists*/
   font-size: 23px;
 }

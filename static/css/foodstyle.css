@@ -1,0 +1,30 @@
+
+.desc {   
+      margin: auto; 
+      width: 60%;
+      border: 3px solid #73AD21;
+      padding: 10px;
+      text-align: center;
+    }
+
+.img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+.heading {
+      text-align: center;
+    }
+
+ul {
+      margin: auto;
+      display: block;
+}
+
+.bestseller {
+    font-family: copperplate, fantasy;
+}

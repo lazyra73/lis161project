@@ -1,0 +1,37 @@
+ul { /*to remove bullet points and center the list*/
+    list-style-type: none;
+    text-align: center;
+   }
+
+/*for the box around each word and spacing of the boxes to each other*/
+.appetizer{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 50%;
+    border: 5px solid #73AD21;
+    padding: 10px;
+}
+
+.main{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 50%;
+    border: 5px solid #73AD21;
+    padding: 10px;
+}
+
+.dessert{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 50%;
+    border: 5px solid #73AD21;
+    padding: 10px;
+}
+
+.drinks{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 50%;
+    border: 5px solid #73AD21;
+    padding: 10px;
+}

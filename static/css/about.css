@@ -1,9 +1,9 @@
-p{
+p{ /* to center all the texts (quote, description (restaurant and owver), the word owner  */ 
     text-align: center;
     
 }
 
-.desc{
+.desc{ /*description */
     font-size: 24px;
     width: 1200px;
     border: 15px solid rgb(0, 0, 0,0.25);
@@ -11,17 +11,17 @@ p{
     margin: 20px;
 }
 
-.container{ /*better pala to have a main div then isa pang class ulit sa loob ex. desc*/
+.container{ /*to center the whole description box*/
     align-items: center;
 }
 
-.sara{
+.sara{ /*the photo*/
     float: left;
    width: 40%;
    padding: 10px;
 }
 
-.info{
+.info{ /*details about Sara/the owner */
     text-align: left;
     float:right;
 
@@ -32,7 +32,7 @@ p{
     margin: 10px;
 }
 
-h4{
+h4{ /*the word Sara*/
     text-align: center;
     font-size: 40px;
 }

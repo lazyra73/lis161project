@@ -1,40 +1,17 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<link href="menustyle.css">
-<style>
-    .desc {
-      margin: auto;
-      width: 60%;
-      border: 3px solid #73AD21;
-      padding: 10px;
-      text-align: center;
-    }
-</style>
-<style>
-    .img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: white;
-      padding: 10px;
-    }
-</style>
-<style>
-    .heading {
-      text-align: center;
-    }
-</style>
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/foodstyle.css') }}">
+
 
 <div class="heading">
 <h1> {{ food_profile.name}} </h1>
 </div>
 
-<center>
+
 <div class="img">
 <img src="{{ food_profile.url}} " alt="">
 </div>
-</center>
 
 <div class="desc">
     <p1> {{ food_profile.description}} </p1>
@@ -42,19 +19,28 @@
 
 
 <ul>
-    {% if food_profile.price == "" %}
-    <li>Price: No data available</li>
-    {% else %}
-    <li>Price: {{ food_profile.price }} </li>
-    {% endif %}
-    {% if food_profile.recipe == "" %}
-    <li>Ingredients: No data available</li>
-    {% else %}
-    <li>Ingredients: {{ food_profile.recipe }} </li>
-    {% endif %}
-    {% if food_profile.bestseller == True %}
-    <li> EVERYONE'S CHOICE</li>
-    {% endif %}
-    
+    <div class="list">
+      <!--the first two if/else statements are if there is no data, else-->
+      {% if food_profile.price == "" %}
+      <li>Price: No data available</li>
+      {% else %}
+      <li>Price: {{ food_profile.price }} </li>
+      {% endif %}
+
+      {% if food_profile.recipe == "" %}
+      <li>Ingredients: No data available</li>
+      {% else %}
+      <li>Ingredients: {{ food_profile.recipe }} </li>
+      {% endif %}
+
+      {% if food_profile.bestseller == True %}
+      <div class="bestseller">
+      <li> EVERYONE'S CHOICE</li>
+      </div>
+      {% endif %}
+
+      <li> <iframe width="560" height="315" src="{{ food_profile.vid }}" frameborder="0" allowfullscreen></iframe></li>
+    </div>
+
 </ul>
 {% endblock %}

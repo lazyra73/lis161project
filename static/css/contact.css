@@ -1,19 +1,19 @@
-ul {
+ul { /*to remove the bullet points in the list*/
     list-style-type: none;
    }
 
-h1{
+h1{ /*contact us*/
     text-align: center;
 }
 
 p{
+    text-align: center; /*address and number*/
+}
+
+.socialmedia{ /*for all the links*/
     text-align: center;
 }
 
-.socialmedia{
-    text-align: center;
-}
-
-img{
+img{ /*lighten the photo for aesthetic*/
     opacity: 0.90;
 }
