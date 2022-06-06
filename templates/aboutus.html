@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/about.css') }}">
+
+<h1>About Us</h1>
+<br>
+<div class="card">
+    <div class="card-header">
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p class="quotes">"The most popular venue... Fine... The most popular venue, aside from the tavern, in the whole city of Mondstadt is Good Hunter. It is always filled with mouthwatering aroma and a great atmosphere. If you can't get your reservations, at least ordering take-out is still an option."</p>
+        <footer class="blockquote-footer"> <cite title="Source Title">Teyvat Travel Guide Vol. 1 </cite></footer>
+      </blockquote>
+    </div>
+  </div>
+<br>
+<br>
+<div class="container">
+  <p class="desc"> From the local cuisine of the city Mondstadt, the Li and Yue style of cooking from Liyue, to the ice-cold fresh food and seafood from Inazuma, Good Hunter boasts it's wide selection of dishes for everyone to try! In The Good Hunter, there is food for everyone!  </p>
+</div>
+
+<br>
+<br>
+
+
+<img src="{{ url_for('static', filename='img/saraclose.png') }}" class="sara" alt="Menu at Good Hunter">
+<div class="info">
+  <h4> Sara Musk </h4>
+<p> Owner </p>
+
+<p> The Head Chef at Good Hunter and also a waitress there, Sara is extremely passionate about cooking and excels at the different cuisines from Mondstadt, Liyue, and Inazuma.
+    Sara is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters in Mondstadt.
+    There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise. </p>
+</div>
+    <br>
+{% endblock %}

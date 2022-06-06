@@ -1,0 +1,19 @@
+p {
+    font-family: serif;
+    font-size: 1.2em;
+    color: black;
+  }
+  
+h1 {
+  font-family: sans-serif;
+  font-size: 2.5em;
+  color: black;
+  }
+    
+body {
+  background: Linen;
+  }
+
+li{
+  font-size: 23px;
+}

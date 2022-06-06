@@ -1,0 +1,38 @@
+p{
+    text-align: center;
+    
+}
+
+.desc{
+    font-size: 24px;
+    width: 1200px;
+    border: 15px solid rgb(0, 0, 0,0.25);
+    padding: 50px;
+    margin: 20px;
+}
+
+.container{ /*better pala to have a main div then isa pang class ulit sa loob ex. desc*/
+    align-items: center;
+}
+
+.sara{
+    float: left;
+   width: 40%;
+   padding: 10px;
+}
+
+.info{
+    text-align: left;
+    float:right;
+
+    font-size: 18px;
+    width: 800px;
+    border: 15px solid rgb(0, 0, 0,0.25);
+    padding: 30px;
+    margin: 10px;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+}

@@ -1,0 +1,104 @@
+.pics{
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+
+.logo img{
+  width: 300px; /*size*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bgtitle{
+  height: 100vh; /*vh means viewport height, i think para buong pic makikita*/
+  background-image: url("/static/img/storenight.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  
+  opacity: 0.75;
+  
+}
+
+/* made h1 nakahiwalay para di siya madamay sa opacity*/
+h1{
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* helps in positioning, length percentage yung nasa loob para magcenter yung h1*/
+  font-size: 70px  
+}
+
+.cards{
+  position: relative;
+  flex-grow: 1;
+  margin: auto;
+
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*sets number of columns in grid*/
+  grid-gap: 30vmin; /* how close together yung pics to each other*/
+
+  width: 800px; /* para di sagad yung 'gallery' sa page pero ok ang rin naman isagad*/
+}
+
+h5{
+  text-align: center;
+
+}
+p{
+  text-align: center;
+}
+.gallery img {
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%; /*size*/
+
+  
+}
+
+.gallery{
+  position: relative;
+  flex-grow: 1;
+  margin: auto;
+  max-width: 100vw;
+  max-height: 100vh;
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /*sets number of columns in grid/galler*/
+  grid-gap: 2vmin; /* how close together yung pics to each other*/
+
+  width: 1250px; /* para di sagad yung 'gallery' sa page pero ok ang rin naman isagad*/
+
+}
+
+input[type=checkbox] {
+  display: none; /*para walang checkbox*/
+}
+
+.gallery input:checked+img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  object-fit: contain;
+}
+
+.contact{
+ 
+  background: rgba(35, 35, 35, 0.15) ;
+  
+}
+
+.social{
+  column-count: 3
+}

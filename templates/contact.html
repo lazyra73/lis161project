@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/contact.css') }}">
+<div class="contact">
+<h1>Contact Us  </h1>
+<p>Address: Town Square,Mondstadt, Teyvat</p>
+<p> Number: 123-4567 </p>
+
+<ul class="socialmedia">
+  <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+  <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+  <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+  <li><a href="https://mail.google.com" target="_blank">E-mail</a></li> <!--target blank para new tab hahah-->
+</ul>
+</div>
+       
+<img src="{{ url_for('static', filename='img/storefar.png') }}" class="img-fluid alt=""> 
+
+      
+ 
+{% endblock %}
