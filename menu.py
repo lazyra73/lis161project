@@ -1,7 +1,7 @@
 menu = {
     'Appetizer': [
         {
-            'name': "Fisherman's Toast",
+            'name': "hi Fisherman's Toast",
             'price': 150,
             'description': 'An attractive-looking pre-meal snack. A spread made from potatoes and berries is placed onto crispy potato slices, and a whole shrimp is then added on top. The fragrant and full-bodied flavors serve to whet the appetite, while the addition of Mint adds a whole other dimension to the mix.',
             'url': "https://i0.wp.com/fragstrat.com/genshin-impact/wp-content/uploads/Item_Fisherman27s_Toast.png?w=819&ssl=1",
