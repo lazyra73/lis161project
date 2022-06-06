@@ -5,7 +5,7 @@ menu = {
             'price': 150,
             'description': 'An attractive-looking pre-meal snack. A spread made from potatoes and berries is placed onto crispy potato slices, and a whole shrimp is then added on top. The fragrant and full-bodied flavors serve to whet the appetite, while the addition of Mint adds a whole other dimension to the mix.',
             'url': "https://i0.wp.com/fragstrat.com/genshin-impact/wp-content/uploads/Item_Fisherman27s_Toast.png?w=819&ssl=1",
-            'recipe': {"flour":3.50, "tomato":2, "onion":1.75, "milk":1},
+            'recipe': {"Flour":3.50, "Tomato":2, "Onion":1.75, "Milk":1},
             'bestseller': False,
             'vid': "https://www.youtube.com/embed/UgqDwvnwRO4" 
         },
@@ -25,7 +25,7 @@ menu = {
             'url': 'https://i0.wp.com/fragstrat.com/genshin-impact/wp-content/uploads/Item_Crispy_Potato_Shrimp_Platter.png?w=819&ssl=1',
             'recipe': {"Mint":4.50, "Shrimp Meat":4.75, "Potato":3.45, "Berry":2.25},
             'bestseller': False,
-            'vid': "https://www.youtube.com/embed/kNdMJdx5Dgg"
+            'vid': "https://www.youtube.com/embed/h487GcF0tW0"
         },
         {
             'name': 'Satisfying Salad',
@@ -245,4 +245,3 @@ menu = {
         }
     ]
 }
-
