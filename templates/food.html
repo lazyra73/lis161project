@@ -17,9 +17,8 @@
     <p1> {{ food_profile.description}} </p1>
 </div>
 
-
+<div class="list">
 <ul>
-    <div class="list">
     {% if food_profile.price == "" %}
     <li>Price: No data available</li>
     {% else %}
@@ -37,15 +36,16 @@
         {% endfor %} </li>
     {% endif %}
     {% if food_profile.bestseller == True %}
-    <div class="bestseller">
-    <li> EVERYONE'S CHOICE</li>
-    </div>
+        <div class="bestseller">
+        <li> EVERYONE'S CHOICE</li>
+        </div>
     {% endif %}
 
     <li> 
         Get to know the food in real life! <br>
         <iframe width="560" height="315" src="{{ food_profile.vid }}" frameborder="0" allowfullscreen></iframe></li>
-    </div>
+
 
 </ul>
+</div>
 {% endblock %}
